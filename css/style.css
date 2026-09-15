@@ -58,9 +58,6 @@ main {
     border-radius: 20px;
 }
 
-#introducao .conteudo {
-    flex: 1;
-}
 #introducao h2 {
     font-size: 42px;
     line-height: 0.95;
@@ -96,6 +93,7 @@ main {
     width: 32%;
     padding: 0 10px 10px 10px; /*cima,direita,em baixo, esquerda*/
     border-radius: 20px;
+    object-fit: contain;
 }
 
 .card img {
