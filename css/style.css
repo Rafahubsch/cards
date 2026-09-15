@@ -1,4 +1,4 @@
-. {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
     background-color: rgb(244, 88, 184);
@@ -20,23 +20,21 @@ header {
     padding: 40px;
     margin-bottom: 40px;
     align-items: center;
-  
 }
 #cabecalho {
     display: flex;
     align-items: center;
-    gap:25px;
+    gap: 25px;
     padding: 20px 50px;
 }
- .slogan {
+.slogan {
     font-size: 13px;
-    color:black;
- }
+    color: black;
+}
 #menu {
-    display:flex;
-    gap:10px;
+    display: flex;
+    gap: 10px;
     margin-left: auto;
-
 }
 .item {
     font-size: 12px;
@@ -56,14 +54,14 @@ main {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
-    line-height: 1,5;
+    line-height: 1, 5;
     border-radius: 20px;
 }
 
 #introducao .conteudo {
-   flex: 1;
+    flex: 1;
 }
-#introducao h2{
+#introducao h2 {
     font-size: 42px;
     line-height: 0.95;
     margin-bottom: 20px;
@@ -96,15 +94,15 @@ main {
 .card {
     background-color: white;
     width: 32%;
-    padding: 0;
+    padding: 0 10px 10px 10px; /*cima,direita,em baixo, esquerda*/
     border-radius: 20px;
 }
 
 .card img {
     width: 100%;
     border-radius: 20px;
-    height: 150px;
-    object-fit: cover;
+    height: 200px;
+    object-fit:contain;
 }
 
 .card p {
@@ -113,5 +111,5 @@ main {
     font-size: 12px;
 }
 .card h3 {
-    margin:10px;
+    margin: 10px;
 }
